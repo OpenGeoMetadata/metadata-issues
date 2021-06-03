@@ -4,44 +4,44 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 
 | Aardvark-id | Label                                     | URI                    | Obligation  |
 |-------------|-------------------------------------------|------------------------|-------------|
-| 01          | *[Title](#title)*                          | `dct_title_s`          | Required    |
-| 02          | [Alternative-Title](#alternative-title)   | `dct_alternative_sm`   | Optional    |
+| 01          | **[Title](#title)**                          | `dct_title_s`          | Required    |
+| 02          | [Alternative Title](#alternative-title)   | `dct_alternative_sm`   | Optional    |
 | 03          | [Description](#description)               | `dct_description_sm`   | Recommended |
 | 04          | [Language](#language)                     | `dct_language_sm`      | Optional    |
 | 05          | [Creator](#creator)                       | `dct_creator_sm`       | Recommended |
 | 06          | [Publisher](#publisher)                   | `dct_publisher_sm`     | Recommended |
 | 07          | [Provider](#provider)                     | `schema_provider_s`    | Recommended |
-| 08          | *[Resource-Class](#resource-class)*         | `gbl_resourceClass_sm` | Required    |
-| 09          | [Resource-Type](#resource-type)           | `gbl_resourceType_sm`  | Recommended |
+| 08          | **[Resource Class](#resource-class)**         | `gbl_resourceClass_sm` | Required    |
+| 09          | [Resource Type](#resource-type)           | `gbl_resourceType_sm`  | Recommended |
 | 10          | [Subject](#subject)                       | `dct_subject_sm`       | Optional    |
-| 11          | [ISO-Topic-Category](#iso-topic-category) | `dcat_theme_sm`        | Optional    |
+| 11          | [ISO Topic Category](#iso-topic-category) | `dcat_theme_sm`        | Optional    |
 | 12          | [Keyword](#keyword)                       | `dcat_keyword_sm`      | Optional    |
-| 13          | [Temporal-Coverage](#temporal-coverage)   | `dct_temporal_sm`      | Recommended |
-| 14          | [Date-Issued](#date-issued)               | `dct_issued_s`         | Optional    |
-| 15          | [Index-Year](#index-year)                 | `gbl_indexYear_im`     | Recommended |
-| 16          | [Date-Range](#date-range)                 | `gbl_dateRange_drsim`  | Optional    |
-| 17          | [Spatial-Coverage](#spatial-coverage)     | `dct_spatial_sm`       | Recommended |
-| 18          | [Spatial-Extent](#spatial-extent)         | `locn_geometry`        | Recommended |
+| 13          | [Temporal Coverage](#temporal-coverage)   | `dct_temporal_sm`      | Recommended |
+| 14          | [Date Issued](#date-issued)               | `dct_issued_s`         | Optional    |
+| 15          | [Index Year](#index-year)                 | `gbl_indexYear_im`     | Recommended |
+| 16          | [Date Range](#date-range)                 | `gbl_dateRange_drsim`  | Optional    |
+| 17          | [Spatial Coverage](#spatial-coverage)     | `dct_spatial_sm`       | Recommended |
+| 18          | [Spatial Extent](#spatial-extent)         | `locn_geometry`        | Recommended |
 | 19          | [Centroid](#centroid)                     | `dcat_centroid_ss`     | Optional    |
 | 20          | [Relation](#relation)                     | `dct_relation_sm`      | Optional    |
-| 21          | [Member-Of](#member-of)                   | `pcdm_memberOf_sm`     | Optional    |
-| 22          | [Is-Part-Of](#is-part-of)                 | `dct_isPartOf_sm`      | Optional    |
+| 21          | [Member Of](#member-of)                   | `pcdm_memberOf_sm`     | Optional    |
+| 22          | [Is Part Of](#is-part-of)                 | `dct_isPartOf_sm`      | Optional    |
 | 23          | [Source](#source)                         | `dct_source_sm`        | Optional    |
 | 24          | [Version](#version)                       | `dct_isVersionOf_sm`   | Optional    |
 | 25          | [Replaces](#replaces)                     | `dct_replaces_sm`      | Optional    |
-| 26          | [Is-Replaced-By](#is-replaced-by)         | `dct_isReplacedBy_sm`  | Optional    |
+| 26          | [Is Replaced By](#is-replaced-by)         | `dct_isReplacedBy_sm`  | Optional    |
 | 27          | [Rights](#rights)                         | `dct_rights_sm`        | Recommended |
-| 28          | [Rights-Holder](#rights-holder)           | `dct_rightsHolder_sm`  | Optional    |
+| 28          | [Rights Holder](#rights-holder)           | `dct_rightsHolder_sm`  | Optional    |
 | 29          | [License](#license)                       | `dct_license_sm`       | Optional    |
-| 30          | *[Access-Rights](#access-rights)*           | `dct_accessRights_s`   | Required    |
+| 30          | **[Access Rights](#access-rights)**           | `dct_accessRights_s`   | Required    |
 | 31          | [Format](#format)                         | `dct_format_s`         | Conditional |
-| 32          | [File-Size](#file-size)                   | `gbl_fileSize_s`       | Optional    |
-| 33          | [WxS-Identifier](#wxs-identifier)         | `gbl_wxsIdentifier_s`  | Conditional |
+| 32          | [File Size](#file-size)                   | `gbl_fileSize_s`       | Optional    |
+| 33          | [WxS Identifier](#wxs-identifier)         | `gbl_wxsIdentifier_s`  | Conditional |
 | 34          | [References](#references)                 | `dct_references_s`     | Recommended |
-| 35          | *[ID](#id)*                                 | `id`                   | Required    |
+| 35          | **[ID](#id)**                                 | `id`                   | Required    |
 | 36          | [Identifier](#identifier)                 | `dct_identifier_sm`    | Recommended |
-| 37          | *[Modified](#modified)*                     | `gbl_mdModified_dt`    | Required    |
-| 38          | *[Metadata-Version](#metadata-version)*     | `gbl_mdVersion_s`      | Required    |
+| 37          | **[Modified](#modified)**                     | `gbl_mdModified_dt`    | Required    |
+| 38          | **[Metadata Version](#metadata-version)**     | `gbl_mdVersion_s`      | Required    |
 | 39          | [Suppressed](#suppressed)                 | `gbl_suppressed_b`     | Optional    |
 | 40          | [Georeferenced](#georeferenced)           | `gbl_georeferenced_b`  | Optional    |
 
