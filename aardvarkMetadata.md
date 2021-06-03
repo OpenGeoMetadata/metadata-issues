@@ -121,3 +121,213 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 | Element Set           | schema.org                                                                                                                                                                                                                                                                                                                                     |
 | Group                 | Administrative - entity                                                                                                                                                                                                                                                                                                                        |
 
+| Label                 | Resource Class                                                                                                 |
+|:----------------------|:---------------------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 08                                                                                                             |
+| URI                   | `gbl_resourceClass_sm`                                                                                           |
+| Obligation            | Required                                                                                                       |
+| Multiplicity          | 1-5                                                                                                            |
+| Field type            | string                                                                                                         |
+| Purpose               | To provide a top level set of categories for classifying the item.                                             |
+| Entry Guidelines      | Choose one or more terms from the following list: Datasets, Maps, Imagery, Collections, Websites, Web services |
+| Commentary            | This field is intended to help users sort between significantly different types of resources.                  |
+| Controlled Vocabulary | yes - strict                                                                                                   |
+| Example value         | Datasets                                                                                                       |
+| Element Set           | GBL                                                                                                            |
+| Group                 | Categories                                                                                                     |
+
+| Label                 | Resource Type                                                                                                                                                                                                                                                   |
+|:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 09                                                                                                                                                                                                                                                              |
+| URI                   | `gbl_resourceType_sm`                                                                                                                                                                                                                                             |
+| Obligation            | Recommended                                                                                                                                                                                                                                                     |
+| Multiplicity          | 0-*                                                                                                                                                                                                                                                             |
+| Field type            | string                                                                                                                                                                                                                                                          |
+| Purpose               | To provide a secondary level of categories for classifying the spatial type or structure of a dataset.                                                                                                                                                          |
+| Entry Guidelines      | Choose one or more terms from this list.  Other terms are allowed.                                                                                                                                                                                              |
+| Commentary            | This field combines an established list of terms for scanned maps (Cartographic Genres) and a custom list for geospatial data types. Additional terms are welcomed - please submit them to the community for review and inclusion into the official vocabulary. |
+| Controlled Vocabulary | yes-not strict                                                                                                                                                                                                                                                  |
+| Example value         | Point data                                                                                                                                                                                                                                                      |
+| Element Set           | GBL                                                                                                                                                                                                                                                             |
+| Group                 | Categories                                                                                                                                                                                                                                                      |
+
+| Label                 | Subject                                                                                                         |
+|:-----------------------|:-----------------------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 10                                                                                                              |
+| URI                   | `dct_subject_sm`                                                                                                  |
+| Obligation            | Optional                                                                                                        |
+| Multiplicity          | 0-*                                                                                                             |
+| Field type            | string                                                                                                          |
+| Purpose               | To provide an all-purpose field for subjects. Any value is allowed, but controlled vocabularies are encouraged. |
+| Entry Guidelines      | Any value is allowed, but controlled vocabularies are encouraged.                                               |
+| Commentary            |                                                                                                                 |
+| Controlled Vocabulary | no                                                                                                              |
+| Example value         |                                                                                                                 |
+| Element Set           | DCMI                                                                                                            |
+| Group                 | Categories                                                                                                      |
+
+| Label                 | ISO Topic Category                                                                                                                                                                                                                                                |
+|:-----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 11                                                                                                                                                                                                                                                                |
+| URI                   | `dcat_theme_sm`                                                                                                                                                                                                                                                     |
+| Obligation            | Optional                                                                                                                                                                                                                                                          |
+| Multiplicity          | 0-19                                                                                                                                                                                                                                                              |
+| Field type            | string                                                                                                                                                                                                                                                            |
+| Purpose               | To provide a dedicated field that is restricted to ISO Topic Categories only.                                                                                                                                                                                     |
+| Entry Guidelines      | Insert one or more of the ISO Topic Categories from this list                                                                                                                                                                                                     |
+| Commentary            | Although ISO Topic categories are well-established and widely used, the spellings of these terms vary across domains and disciplines. The GeoBlacklight Metadata Application Profile recommends that the terms are capitalized and spaced for better readability. |
+| Controlled Vocabulary | yes - strict                                                                                                                                                                                                                                                      |
+| Example value         | Imagery and Base Maps                                                                                                                                                                                                                                             |
+| Element Set           | DCAT                                                                                                                                                                                                                                                              |
+| Group                 | Categories                                                                                                                                                                                                                                                        |
+
+| Label                 | Keyword                                                                                                                                                                                                                       |
+|:-----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 12                                                                                                                                                                                                                            |
+| URI                   | `dcat_keyword_sm`                                                                                                                                                                                                               |
+| Obligation            | Optional                                                                                                                                                                                                                      |
+| Multiplicity          | 0-*                                                                                                                                                                                                                           |
+| Field type            | string                                                                                                                                                                                                                        |
+| Purpose               | To improve search results with hidden free text tags and to give administrators a field for internal tags                                                                                                                     |
+| Entry Guidelines      | Enter tags that will be useful for enhancing searches and interpretation. Keywords will be in the metadata, but will be hidden to the user by default.                                                                        |
+| Commentary            | These may be used for administrative purposes or to facilitate text seaching without cluttering a facet or interface. They may be helpful for grouping items by an accession code or for alternate spellings of common terms. |
+| Controlled Vocabulary | no                                                                                                                                                                                                                            |
+| Example value         | covid19                                                                                                                                                                                                                       |
+| Element Set           | DCAT                                                                                                                                                                                                                          |
+| Group                 | Categories                                                                                                                                                                                                                    |
+
+| Label                 | Temporal Coverage                                                                                                                                                                                                                                                    |
+|:-----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 13                                                                                                                                                                                                                                                                   |
+| URI                   | `dct_temporal_sm`                                                                                                                                                                                                                                                      |
+| Obligation            | Recommended                                                                                                                                                                                                                                                          |
+| Multiplicity          | 0-*                                                                                                                                                                                                                                                                  |
+| Field type            | string                                                                                                                                                                                                                                                               |
+| Purpose               | To provide the user with a free text description of the time period or ranges of what is depicted in the resource                                                                                                                                                    |
+| Entry Guidelines      | This is a text string and can indicate uncertainty                                                                                                                                                                                                                   |
+| Commentary            | The `dct_temporal_sm` field is multi-valued, so multiple strings can be used to indicate the time period the resource depicts, when the data was collected, and/or when the resources was created. Examples include: “approximately 1910”, “1800-1805”, “before 2000”. |
+| Controlled Vocabulary | no                                                                                                                                                                                                                                                                   |
+| Example value         | 1980-1995                                                                                                                                                                                                                                                            |
+| Element Set           | DCMI                                                                                                                                                                                                                                                                 |
+| Group                 | Temporal                                                                                                                                                                                                                                                             |
+
+| Label                 | Date Issued                                                                                                                                                                                                                                                                                                           |
+|:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 14                                                                                                                                                                                                                                                                                                                    |
+| URI                   | `dct_issued_s`                                                                                                                                                                                                                                                                                                          |
+| Obligation            | Optional                                                                                                                                                                                                                                                                                                              |
+| Multiplicity          | 0-1                                                                                                                                                                                                                                                                                                                   |
+| Field type            | string                                                                                                                                                                                                                                                                                                                |
+| Purpose               | To provide the user of when an item was published and for administrators to determine the age of the resource                                                                                                                                                                                                         |
+| Entry Guidelines      | A single year is the preferred format. For more precide dates, use the ISO format without the time value: YYYY-MM-DD or YYYY-MM.                                                                                                                                                                                      |
+| Commentary            | Although the `dct_issued_s` field is optional, it is often useful when a clear Temporal Coverage value is not present. For example, one may want to preserve a dataset with an uncertain lineage, but there is an indicator on a data portal on the date of last update. In most cases, the 4 digit year is sufficient. |
+| Controlled Vocabulary | no                                                                                                                                                                                                                                                                                                                    |
+| Example value         | 1999                                                                                                                                                                                                                                                                                                                  |
+| Element Set           | DCMI                                                                                                                                                                                                                                                                                                                  |
+| Group                 | Temporal                                                                                                                                                                                                                                                                                                              |
+
+| Label                 | Index Year                                                    |
+|:-----------------------|:---------------------------------------------------------------|
+| Aardvark-id           | 15                                                            |
+| URI                   | `gbl_indexYear_im`                                              |
+| Obligation            | Recommended                                                   |
+| Multiplicity          | 1-*                                                           |
+| Field type            | integer                                                       |
+| Purpose               | To power time sliders widgets that rely on integers for dates |
+| Entry Guidelines      | Enter one or more 4 digit integers                            |
+| Commentary            |                                                               |
+| Controlled Vocabulary | no                                                            |
+| Example value         | 1980,1981,1982                                                |
+| Element Set           | GBL                                                           |
+| Group                 | Temporal                                                      |
+
+| Label                 | Date Range                                                                                         |
+|:-----------------------|:----------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 16                                                                                                 |
+| URI                   | `gbl_dateRange_drsim`                                                                                |
+| Obligation            | Optional                                                                                           |
+| Multiplicity          | 0-*                                                                                                |
+| Field type            | date-range                                                                                         |
+| Purpose               | To power other time widgets that use a date range                                                  |
+| Entry Guidelines      | Enter a start date and end date in the Solr daterange field convention: [YYYY to YYYY]             |
+| Commentary            | This field is not yet supported by GeoBlacklight, but the application can be customized to use it. |
+| Controlled Vocabulary | no                                                                                                 |
+| Example value         | [1980 TO 1995]                                                                                     |
+| Element Set           | GBL                                                                                                |
+| Group                 | Temporal                                                                                           |
+
+| Label                 | Spatial Coverage                                                                                                                                                                                       |
+|:-----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 17                                                                                                                                                                                                     |
+| URI                   |`dct_spatial_sm`                                                                                                                                                                                         |
+| Obligation            | Recommended                                                                                                                                                                                            |
+| Multiplicity          | 0-*                                                                                                                                                                                                    |
+| Field type            | string                                                                                                                                                                                                 |
+| Purpose               | To provide the user with a list of searchable and selectable place names                                                                                                                               |
+| Entry Guidelines      | Place name text strings should be specified out to the nation level. It is typical for the place name to represent the largest extent the data layer represents. Our recommended thesaurus is GeoNames |
+| Commentary            | It is recommended to have at least one place name for each layer that corresponds to the logical extent of the area of that layer.                                                                     |
+| Controlled Vocabulary | yes- not strict                                                                                                                                                                                        |
+| Example value         | Philadelphia, Pennsylvania, United States                                                                                                                                                              |
+| Element Set           | DCMI                                                                                                                                                                                                   |
+| Group                 | Spatial                                                                                                                                                                                                |
+
+| Label                 | Spatial Extent                                                                                                         |
+|:--------------------- |:---------------------------------------------------------------------------------------------------------------------- |
+| Aardvark-id           | 18                                                                                                                     |
+| URI                   | `locn_geometry`                                                                                                         |
+| Obligation            | Recommended                                                                                                            |
+| Multiplicity          | 0-*                                                                                                                   |
+| Field type            | string                                                                                                                 |
+| Purpose               | To display the extent of the resource and to power the map search. This may be a bounding box or more complex geometry |
+| Entry Guidelines      | For a bounding box, it should be in this format: ENVELOPE(w,e,n,s)                                                     |
+| Commentary            | This field can support bounding boxes or complex geometries.                                                           |
+| Controlled Vocabulary | no                                                                                                                     |
+| Example value         | For bounding boxes: ENVELOPE(-97.251,-90.9229,49.3788,43.4649)<br>For geometries:                                      |
+| Element Set           | LOCN/DCAT                                                                                                              |
+| Group                 | Spatial                                                                                                                |
+
+| Label                 | Centroid                                                                                    |
+|:-----------------------|:---------------------------------------------------------------------------------------------|
+| Aardvark-id           | 19                                                                                          |
+| URI                   | `dcat_centroid_ss`                                                                            |
+| Obligation            | Optional                                                                                    |
+| Multiplicity          | 0-1                                                                                         |
+| Field type            | string                                                                                      |
+| Purpose               | To display the center point of a resource or otherwise a geotagged point on a map           |
+| Entry Guidelines      | Enter two decimal degree coordinates separated by a comma in this order: longitude,latitude |
+| Commentary            | This field is currently only supported by customizations to the GeoBlacklight application.  |
+| Controlled Vocabulary | no                                                                                          |
+| Example value         | 46.4218,-94.087                                                                             |
+| Element Set           | DCAT                                                                                        |
+| Group                 | Spatial                                                                                     |
+
+| Label                 | Relation                                                             |
+|:-----------------------|:----------------------------------------------------------------------|
+| Aardvark-id           | 20                                                                   |
+| URI                   | dct_relation_sm                                                      |
+| Obligation            | Optional                                                             |
+| Multiplicity          | 0-*                                                                  |
+| Field type            | string                                                               |
+| Purpose               | To link items with a general, unspecified relationship to each other |
+| Entry Guidelines      | Enter only the ID of the related item(s)                             |
+| Commentary            |                                                                      |
+| Controlled Vocabulary | no                                                                   |
+| Example value         |                                                                      |
+| Element Set           | DCMI                                                                 |
+| Group                 | Relations                                                            |
+
+| Label                 | Member Of                                                                                        |
+|:-----------------------|:--------------------------------------------------------------------------------------------------|
+| Aardvark-id           | 21                                                                                               |
+| URI                   | `pcdm_memberOf_sm`                                                                                 |
+| Obligation            | Optional                                                                                         |
+| Multiplicity          | 0-*                                                                                              |
+| Field type            | string                                                                                           |
+| Purpose               | To link items that are part of a collection                                                      |
+| Entry Guidelines      | Make a collection record to group records together. Enter the ID of the Collection level record. |
+| Commentary            |                                                                                                  |
+| Controlled Vocabulary | no                                                                                               |
+| Example value         |                                                                                                  |
+| Element Set           | PCDM                                                                                             |
+| Group                 | Relations                                                                                        |
+
