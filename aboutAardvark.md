@@ -15,8 +15,6 @@ The term “aardvark” represents a new naming convention to specify metadata s
 
 GeoBlacklight and its original metadata application schema (1.0) are well-suited to describing single layers of GIS data served out as OGC web services and documented with supplemental metadata, such as ISO 19115 (19139). Since that time, the growing community of GeoBlacklight adopters has introduced new use cases and institutional requirements. This growth brought several challenges to the metadata application schema as it was originally conceived including:
 
-
-
 *   a lack of fields for statements about rights
 *   a lack of clarity around how to define relationships between items
 *   few options for describing other types of resources, such as scanned maps, collections, and websites
@@ -231,7 +229,7 @@ The new set of Relationship elements are:
    </td>
    <td>dct_isVersionOf_sm
    </td>
-   <td>
+   <td>To indicate that an item is aprt of a series of resources that are updated or altered
    </td>
   </tr>
   <tr>
@@ -252,7 +250,7 @@ The new version always gives preference to elements found in established schemas
 
 
 
-*   **<code>dct_ :</code></strong> This signifies that the field is part of the [Dublin Core Metadata Initiative (DCMI) Metadata Terms.](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) Any Dublin Core fields from the GeoBlacklight Schema 1.0 were updated to use the dct_ namespace.
+*   <strong><code>dct_ :</code></strong> This signifies that the field is part of the [Dublin Core Metadata Initiative (DCMI) Metadata Terms.](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/) Any Dublin Core fields from the GeoBlacklight Schema 1.0 were updated to use the dct_ namespace.
 *   <strong><code>dcat_</code></strong> : Thati signifies that the field is from the [Data Catalog Vocabulary (DCAT) Version 2.](https://www.w3.org/TR/vocab-dcat-2/)
 *   <strong><code>pcdm_ </code></strong>: This refers to the [Portland Common Data Model](https://github.com/duraspace/pcdm/wiki), which is a framework for many digital repository systems. We drew from it to establish one of the item relationship fields
 *   <strong><code>gbl_</code></strong> : This stands for GeoBlacklight and is for any field that is application-specific or has no analogous term in other schemas.
@@ -266,7 +264,7 @@ The original schema features several descriptive metadata fields that only accep
 
 ## How do I convert my Version 1.0 metadata into Aardvark?
 
-Most of the elements from Version 1.0 can be crosswalked directly into Aardvark. The values for these elements are exactly the same; only the URI name has changed.  The following chart shows the mapping from GeoBlacklight version 1.0 into corresponding Aardvark fields.
+Most of the elements from Version 1.0 can be crosswalked directly into Aardvark. The values for these elements are exactly the same; only the URI name has changed.  The following chart shows the mapping from GeoBlacklight version 1.0 into corresponding Aardvark fields. Note that this does not include all fields in either schema - only the ones that can be crosswalked.
 
 
 <table>

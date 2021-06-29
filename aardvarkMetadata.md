@@ -27,7 +27,7 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 | 21          | [Member Of](#member-of)                   | `pcdm_memberOf_sm`     | Optional    |
 | 22          | [Is Part Of](#is-part-of)                 | `dct_isPartOf_sm`      | Optional    |
 | 23          | [Source](#source)                         | `dct_source_sm`        | Optional    |
-| 24          | [Version](#version)                       | `dct_isVersionOf_sm`   | Optional    |
+| 24          | [Is Version Of](#is-version-of)                       | `dct_isVersionOf_sm`   | Optional    |
 | 25          | [Replaces](#replaces)                     | `dct_replaces_sm`      | Optional    |
 | 26          | [Is Replaced By](#is-replaced-by)         | `dct_isReplacedBy_sm`  | Optional    |
 | 27          | [Rights](#rights)                         | `dct_rights_sm`        | Recommended |
