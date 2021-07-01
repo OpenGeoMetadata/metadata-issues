@@ -229,7 +229,7 @@ The new set of Relationship elements are:
    </td>
    <td>dct_isVersionOf_sm
    </td>
-   <td>To indicate that an item is aprt of a series of resources that are updated or altered
+   <td>To indicate that an item is a part of a series of resources that are updated or altered
    </td>
   </tr>
   <tr>
