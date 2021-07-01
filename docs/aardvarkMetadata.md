@@ -1,5 +1,7 @@
 This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
-## Brief
+## List of Fields
+
+## Jump to Controlled Vocabularies
 
 
 | Aardvark-id | Label                                     | URI                    | Obligation  |
@@ -110,7 +112,7 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 | Purpose               | To provide the user with the language of the map                                                      |
 | Entry Guidelines      | Enter a 3-letter code using the ISO 639-3 standard                                                    |
 | Commentary            | This field is intended to indicate the language of the dataset, map, and/or supporting documentation. |
-| Controlled Vocabulary | yes - not strict                                                                                      |
+| Controlled Vocabulary | yes - not strict [See Library of Congress standards](https://www.loc.gov/standards/iso639-2/php/code_list.php)                                                                                     |
 | Example value         | eng                                                                                                   |
 | Element Set           | DCMI                                                                                                  |
 | Group                 | Bibliographic - general                                                                               |
@@ -178,7 +180,7 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 | Purpose               | To provide a top level set of categories for classifying the item.                                             |
 | Entry Guidelines      | Choose one or more terms from the following list: Datasets, Maps, Imagery, Collections, Websites, Web services |
 | Commentary            | This field is intended to help users sort between significantly different types of resources.                  |
-| Controlled Vocabulary | yes - strict                                                                                                   |
+| Controlled Vocabulary | [yes - strict](#resource-class-vocabulary)                                                                                                   |
 | Example value         | Datasets                                                                                                       |
 | Element Set           | GBL                                                                                                            |
 | Group                 | Categories                                                                                                     |
@@ -195,7 +197,7 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 | Purpose               | To provide a secondary level of categories for classifying the spatial type or structure of a dataset.                                                                                                                                                          |
 | Entry Guidelines      | Choose one or more terms from this list.  Other terms are allowed.                                                                                                                                                                                              |
 | Commentary            | This field combines an established list of terms for scanned maps (Cartographic Genres) and a custom list for geospatial data types. Additional terms are welcomed - please submit them to the community for review and inclusion into the official vocabulary. |
-| Controlled Vocabulary | yes-not strict                                                                                                                                                                                                                                                  |
+| Controlled Vocabulary | [yes-not strict](#resource-type-vocabulary)                                                                                                                                                                                                                                                  |
 | Example value         | Point data                                                                                                                                                                                                                                                      |
 | Element Set           | GBL                                                                                                                                                                                                                                                             |
 | Group                 | Categories                                                                                                                                                                                                                                                      |
@@ -230,7 +232,7 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 | Purpose               | To provide a dedicated field that is restricted to ISO Topic Categories only.                                                                                                                                                                                     |
 | Entry Guidelines      | Insert one or more of the ISO Topic Categories from this list                                                                                                                                                                                                     |
 | Commentary            | Although ISO Topic categories are well-established and widely used, the spellings of these terms vary across domains and disciplines. The GeoBlacklight Metadata Application Profile recommends that the terms are capitalized and spaced for better readability. |
-| Controlled Vocabulary | yes - strict                                                                                                                                                                                                                                                      |
+| Controlled Vocabulary | [yes - strict](iso-topic-category-vocabulary)                                                                                                                                                                                                                                                      |
 | Example value         | Imagery and Base Maps                                                                                                                                                                                                                                             |
 | Element Set           | DCAT                                                                                                                                                                                                                                                              |
 | Group                 | Categories                                                                                                                                                                                                                                                        |
@@ -335,7 +337,7 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 | Purpose               | To provide the user with a list of searchable and selectable place names                                                                                                                               |
 | Entry Guidelines      | Place name text strings should be specified out to the nation level. It is typical for the place name to represent the largest extent the data layer represents. Our recommended thesaurus is GeoNames |
 | Commentary            | It is recommended to have at least one place name for each layer that corresponds to the logical extent of the area of that layer.                                                                     |
-| Controlled Vocabulary | yes- not strict                                                                                                                                                                                        |
+| Controlled Vocabulary | no                                                                                                                                                                                        |
 | Example value         | Philadelphia, Pennsylvania, United States                                                                                                                                                              |
 | Element Set           | DCMI                                                                                                                                                                                                   |
 | Group                 | Spatial                                                                                                                                                                                                |
@@ -748,5 +750,121 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 | Element Set           | GBL                                                                                                                                                                                                                 |
 | Group                 | Administrative                                                                                                                                                                                                      |
 
+---------------------------------------------
+## Controlled Vocabularies
+
+### Resource Class Vocabulary
+
+| Collections  |
+| Datasets     |
+| Maps         |
+| Web Services |
+| Websites     |
+| Other        |
+
+### Resource Type Vocabulary
+
+| term                                                       | source |
+| ---------------------------------------------------------- | ------ |
+| LiDAR                                                      | GBL    |
+| Line data                                                  | GBL    |
+| Mesh data                                                  | GBL    |
+| Multi-spectral data                                        | GBL    |
+| Oblique photographs                                        | GBL    |
+| Point cloud data                                           | GBL    |
+| Point data                                                 | GBL    |
+| Polygon data                                               | GBL    |
+| Raster data                                                | GBL    |
+| Satellite imagery                                          | GBL    |
+| Table data                                                 | GBL    |
+| Aerial photographs                                         | LOC    |
+| Aerial views                                               | LOC    |
+| Aeronautical charts                                        | LOC    |
+| Armillary spheres                                          | LOC    |
+| Astronautical charts                                       | LOC    |
+| Astronomical models                                        | LOC    |
+| Atlases                                                    | LOC    |
+| Bathymetric maps                                           | LOC    |
+| Block diagrams                                             | LOC    |
+| Bottle-charts                                              | LOC    |
+| Cadastral maps                                             | LOC    |
+| Cartographic materials                                     | LOC    |
+| Cartographic materials for people with visual disabilities | LOC    |
+| Celestial charts                                           | LOC    |
+| Celestial globes                                           | LOC    |
+| Census data                                                | LOC    |
+| Children's atlases                                         | LOC    |
+| Children's maps                                            | LOC    |
+| Comparative maps                                           | LOC    |
+| Composite atlases                                          | LOC    |
+| Digital elevation models                                   | LOC    |
+| Digital maps                                               | LOC    |
+| Early maps                                                 | LOC    |
+| Ephemerides                                                | LOC    |
+| Ethnographic maps                                          | LOC    |
+| Fire insurance maps                                        | LOC    |
+| Flow maps                                                  | LOC    |
+| Gazetteers                                                 | LOC    |
+| Geological cross-sections                                  | LOC    |
+| Geological maps                                            | LOC    |
+| Globes                                                     | LOC    |
+| Gores (Maps)                                               | LOC    |
+| Gravity anomaly maps                                       | LOC    |
+| Index maps                                                 | LOC    |
+| Linguistic atlases                                         | LOC    |
+| Loran charts                                               | LOC    |
+| Manuscript maps                                            | LOC    |
+| Mappae mundi                                               | LOC    |
+| Mental maps                                                | LOC    |
+| Meteorological charts                                      | LOC    |
+| Military maps                                              | LOC    |
+| Mine maps                                                  | LOC    |
+| Miniature maps                                             | LOC    |
+| Nautical charts                                            | LOC    |
+| Outline maps                                               | LOC    |
+| Photogrammetric maps                                       | LOC    |
+| Photomaps                                                  | LOC    |
+| Physical maps                                              | LOC    |
+| Pictorial maps                                             | LOC    |
+| Plotting charts                                            | LOC    |
+| Portolan charts                                            | LOC    |
+| Quadrangle maps                                            | LOC    |
+| Relief models                                              | LOC    |
+| Remote-sensing maps                                        | LOC    |
+| Road maps                                                  | LOC    |
+| Statistical maps                                           | LOC    |
+| Stick charts                                               | LOC    |
+| Strip maps                                                 | LOC    |
+| Thematic maps                                              | LOC    |
+| Topographic maps                                           | LOC    |
+| Tourist maps                                               | LOC    |
+| Upside-down maps                                           | LOC    |
+| Wall maps                                                  | LOC    |
+| World atlases                                              | LOC    |
+| World maps                                                 | LOC    |
+| Worm's-eye views                                           | LOC    |
+| Zoning maps                                                | LOC    |
 
 
+### ISO Topic Category Vocabulary
+| Term                                    | Definition (from NOAA)                                                                                                                                                                                                                                                                                                                  |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Farming                                 | rearing of animals and/or cultivation of plants Examples: agriculture, irrigation, aquaculture, plantations, herding, pests and diseases affecting crops and livestock                                                                                                                                                                  |
+| Biota                                   | flora and/or fauna in natural environment Examples: wildlife, vegetation, biological sciences, ecology, wilderness, sealife, wetlands, habitat                                                                                                                                                                                          |
+| Boundaries                              | legal land descriptions Examples: political and administrative boundaries                                                                                                                                                                                                                                                               |
+| Climatology, Meteorology and Atmosphere | processes and phenomena of the atmosphere. Examples: cloud cover, weather, climate, atmospheric conditions, climate change, precipitation                                                                                                                                                                                               |
+| Economy                                 | economic activities, conditions and employment. Examples: production, labour, revenue, commerce, industry, tourism and ecotourism, forestry, fisheries, commercial or subsistence hunting, exploration and exploitation of resources such as minerals, oil and gas                                                                      |
+| Elevation                               | height above or below sea level Examples: altitude, bathymetry, digital elevation models, slope, derived products                                                                                                                                                                                                                       |
+| Environment                             | environmental resources, protection and conservation Examples: environmental pollution, waste storage and treatment, environmental impact assessment, monitoring environmental risk, nature reserves, landscape                                                                                                                         |
+| Geoscientific Information               | information pertaining to earth sciences Examples: geophysical features and processes, geology, minerals, sciences dealing with the composition, structure and origin of the earth’s rocks, risks of earthquakes, volcanic activity, landslides, gravity information, soils, permafrost, hydrogeology, erosion                          |
+| Health                                  | health, health services, human ecology, and safety Examples: disease and illness, factors affecting health, hygiene, substance abuse, mental and physical health, health services                                                                                                                                                       |
+| Imagery and Base Maps                   | base maps Examples: land cover, topographic maps, imagery, unclassified images, annotations                                                                                                                                                                                                                                             |
+| Intelligence and Military               | military bases, structures, activities Examples: barracks, training grounds, military transportation, information collection                                                                                                                                                                                                            |
+| Inland Waters                           | inland water features, drainage systems and their characteristics Examples: rivers and glaciers, salt lakes, water utilization plans, dams, currents, floods, water quality, hydrographic charts                                                                                                                                        |
+| Location                                | positional information and services Examples: addresses, geodetic networks, control points, postal zones and services, place names                                                                                                                                                                                                      |
+| Oceans                                  | features and characteristics of salt water bodies (excluding inland waters) Examples: tides, tidal waves, coastal information, reefs                                                                                                                                                                                                    |
+| Planning and Cadastral                  | information used for appropriate actions for future use of the land Examples: land use maps, zoning maps, cadastral surveys, land ownership                                                                                                                                                                                             |
+| Society                                 | characteristics of society and cultures Examples: settlements, anthropology, archaeology, education, traditional beliefs, manners and customs, demographic data, recreational areas and activities, social impact assessments, crime and justice, census information                                                                    |
+| Structure                               | man-made construction Examples: buildings, museums, churches, factories, housing, monuments, shops, towers                                                                                                                                                                                                                              |
+| Transportation                          | means and aids for conveying persons and/or goods Examples: roads, airports/airstrips, shipping routes, tunnels, nautical charts, vehicle or vessel location, aeronautical charts, railways                                                                                                                                             |
+| Utilities and Communication             | energy, water and waste systems and communications infrastructure and services Examples: hydroelectricity, geothermal, solar and nuclear sources of energy, water purification and distribution, sewage collection and disposal, electricity and gas distribution, data communication, telecommunication, radio, communication networks |
