@@ -1,9 +1,6 @@
 This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 ## List of Fields
 
-## Jump to Controlled Vocabularies
-
-
 | Aardvark-id | Label                                     | URI                    | Obligation  |
 |-------------|-------------------------------------------|------------------------|-------------|
 | 01          | **[Title](#title)**                          | `dct_title_s`          | Required    |
@@ -232,7 +229,7 @@ This is an overview of the GeoBlacklight Metadata Elements, Version Aardvark.
 | Purpose               | To provide a dedicated field that is restricted to ISO Topic Categories only.                                                                                                                                                                                     |
 | Entry Guidelines      | Insert one or more of the ISO Topic Categories from this list                                                                                                                                                                                                     |
 | Commentary            | Although ISO Topic categories are well-established and widely used, the spellings of these terms vary across domains and disciplines. The GeoBlacklight Metadata Application Profile recommends that the terms are capitalized and spaced for better readability. |
-| Controlled Vocabulary | [yes - strict](iso-topic-category-vocabulary)                                                                                                                                                                                                                                                      |
+| Controlled Vocabulary | [yes - strict](#iso-topic-category-vocabulary)                                                                                                                                                                                                                                                      |
 | Example value         | Imagery and Base Maps                                                                                                                                                                                                                                             |
 | Element Set           | DCAT                                                                                                                                                                                                                                                              |
 | Group                 | Categories                                                                                                                                                                                                                                                        |
