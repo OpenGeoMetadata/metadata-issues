@@ -1,0 +1,73 @@
+
+  "id": "1dab3ef2-ca17-4503-a7f1-ff1b2023f77c",
+  "gbl_mdVersion_s": "Aardvark",
+  "dct_title_s": "MetroGIS Regional Parcel Dataset (Year End 2008): Twin Cities Metropolitan Area, Minnesota, 2008",
+  "dct_alternative_sm": [
+    "MetroGIS Regional Parcel Dataset (Year End 2008)"
+  ],
+  "dct_description_sm": [
+    "This dataset is a compilation of tax parcel polygon and point layers from the seven Twin Cities, Minnesota metropolitan area counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington. The seven counties were assembled into a common coordinate system. No attempt has been made to edgematch or rubbersheet between counties. A standard set of attribute fields is included for each county. (See section 5 of the metadata). The attributes are the same for the polygon and points layers. Not all attributes are populated for all counties.The polygon layer contains one record for each real estate/tax parcel polygon within each county's parcel dataset. Some counties will polygons for each individual condominium, and others do not. (See Completeness in Section 2 of the metadata for more information.) The points layer includes the same attribute fields as the polygon dataset. The points are intended to provide information in situations where multiple tax parcels are represented by a single polygon. The primary example of this is the condominium. Condominiums, by definition, are legally owned as individual, taxed real estate units. Records for condominiums may not show up in the polygon dataset. The points for the point dataset often will be randomly placed or stacked within the parcel polygon with which they are associated. The polygon layer is broken into individual county shape files. The points layer is one file for the entire metro area.In many places a one-to-one relationship does not exist between these parcel polygons or points and the actual buildings or occupancy units that lie within them. There may be many buildings on one parcel and there may be many occupancy units (e.g. apartments, stores or offices) within each building. Additionally, no information exists within this dataset about residents of parcels. Parcel owner and taxpayer information exists for many, but not all counties."
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "dct_creator_sm": [
+    "Counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets",
+    "Web services"
+  ],
+  "dct_subject_sm": [
+    "Parcels"
+  ],
+  "dcat_keyword_sm": [
+    "cadastre",
+    "land ownership",
+    "parcels",
+    "regional parcel data"
+  ],
+  "dcat_theme_sm": [
+    "Planning and Cadastral"
+  ],
+  "dct_issued_s": "2015-09-01",
+  "dct_temporal_sm": [
+    "2008"
+  ],
+  "gbl_dateRange_drsim": [
+    "[2008 TO 2008]"
+  ],
+  "gbl_indexYear_im": [
+    2008
+  ],
+  "dct_spatial_sm": [
+    "Anoka County, Minnesota",
+    "Carver County, Minnesota",
+    "Dakota County, Minnesota",
+    "Hennepin County, Minnesota",
+    "Ramsey County, Minnesota",
+    "Scott County, Minnesota",
+    "Washington County, Minnesota",
+    "Twin Cities Metropolitan Area, Minnesota",
+    "Minnesota"
+  ],
+  "locn_geometry": "ENVELOPE(-94.012,-92.732,45.415,44.471)",
+  "dcat_centroid_ss": "44.943,-93.372",
+  "dct_isVersionOf_sm": [
+    "7c8c7132-f03c-4b09-8c05-90b20b7db4b5"
+  ],
+  "gbl_resourceType_sm": [
+    "Vector data"
+  ],
+  "dct_format_s": "Shapefile",
+  "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://resources.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/plan_regonal_parcels_2008/shp_plan_regonal_parcels_2008.zip\",\"http://www.w3.org/1999/xhtml\":\"https://resources.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/plan_regonal_parcels_2008/metadata/metadata.html\",\"http://schema.org/url\":\"https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regonal-parcels-2008\",\"urn:x-esri:serviceType:ArcGIS#DynamicMapLayer\":\"https://arcgis.metc.state.mn.us/server/rest/services/plan_regonal_parcels_2008/MapServer\"}",
+  "dct_identifier_sm": [
+    "https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regonal-parcels-2008"
+  ],
+  "schema_provider_s": "Minnesota Geospatial Commons",
+  "dct_rights_sm": [
+    "This dataset is public domain under the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2021-08-24T21:50:43Z",
+}
