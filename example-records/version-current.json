@@ -1,0 +1,63 @@
+{
+  "id": "7c8c7132-f03c-4b09-8c05-90b20b7db4b5",
+  "gbl_mdVersion_s": "Aardvark",
+  "dct_title_s": "MetroGIS Regional Parcel Dataset: Twin Cities Metropolitan Area, Minnesota (Updated Quarterly)",
+  "dct_alternative_sm": [
+    "MetroGIS Regional Parcel Dataset (Year End 2002)"
+  ],
+  "dct_description_sm": [
+    "This dataset is a compilation of tax parcel polygon and point layers assembled into a common coordinate system from Twin Cities, Minnesota metropolitan area counties. No attempt has been made to edgematch or rubbersheet between counties. A standard set of attribute fields is included for each county. The attributes are the same for the polygon and points layers. Not all attributes are populated for all counties."
+  ],
+  "dct_language_sm": [
+    "eng"
+  ],
+  "dct_creator_sm": [
+    "Counties of Anoka, Carver, Dakota, Hennepin, Ramsey, Scott and Washington"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets",
+    "Web services"
+  ],
+  "dct_subject_sm": [
+    "Parcels"
+  ],
+  "dcat_keyword_sm": [
+    "cadastre",
+    "land ownership",
+    "parcels",
+    "regional parcel data"
+  ],
+  "dcat_theme_sm": [
+    "Planning and Cadastral"
+  ],
+  "dct_temporal_sm": [
+    "Updated quarterly"
+  ],
+  "dct_spatial_sm": [
+    "Anoka County, Minnesota",
+    "Carver County, Minnesota",
+    "Dakota County, Minnesota",
+    "Hennepin County, Minnesota",
+    "Ramsey County, Minnesota",
+    "Scott County, Minnesota",
+    "Washington County, Minnesota",
+    "Twin Cities Metropolitan Area, Minnesota",
+    "Minnesota"
+  ],
+  "locn_geometry": "ENVELOPE(-94.012,-92.732,45.415,44.471)",
+  "dcat_centroid_ss": "44.943,-93.372",
+  "gbl_resourceType_sm": [
+    "Vector data"
+  ],
+  "dct_format_s": "Shapefile",
+  "dct_references_s": "{\"http://schema.org/downloadUrl\":\"https://resources.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/plan_regional_parcels/shp_plan_regional_parcels.zip\",\"http://www.w3.org/1999/xhtml\":\"https://resources.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_metrogis/plan_regional_parcels/metadata/metadata.html\",\"http://schema.org/url\":\"https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regional-parcels\",\"urn:x-esri:serviceType:ArcGIS#DynamicMapLayer\":\"https://arcgis.metc.state.mn.us/server/rest/services/plan_regional_parcels/MapServer\"}",
+  "dct_identifier_sm": [
+    "https://gisdata.mn.gov/dataset/us-mn-state-metrogis-plan-regional-parcels"
+  ],
+  "schema_provider_s": "Minnesota Geospatial Commons",
+  "dct_rights_sm": [
+    "This dataset is public domain under the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2021-08-24T21:50:43Z",
+}
