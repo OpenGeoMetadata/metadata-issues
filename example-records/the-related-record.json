@@ -1,7 +1,5 @@
 {
   "id": "the-related-record",
-  "model_name_ssi": "Document",
-  "model_pk_ssi": "d70ca808-5c7f-4174-9738-897e38bfe5c4",
   "gbl_mdVersion_s": "Aardvark",
   "dct_title_s": "The Related Record",
   "dct_description_sm": [
